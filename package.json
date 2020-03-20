@@ -1,0 +1,26 @@
+{
+  "name": "1pxless",
+  "version": "1.0.0",
+  "description": "1px",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passionn/1pxless.git"
+  },
+  "keywords": [
+    "1px"
+  ],
+  "author": "passion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/passionn/1pxless/issues"
+  },
+  "homepage": "https://github.com/passionn/1pxless#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  }
+}
