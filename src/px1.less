@@ -12,8 +12,8 @@
 }
 
 .setTopLine(@c: #C7C7C7) {
-     content: " "; 
-     position: absolute;
+    content: " "; 
+    position: absolute;
     left: 0; 
     top: 0; 
     right: 0; 
@@ -60,11 +60,36 @@
     transform-origin: 100% 0; 
     transform: scaleX(0.5);
 }
-
+// 四个边框
 .border-1px{
     position: relative;
     &:before {
         .setLine(#000,50px);
+    }
+}
+// 上边框
+.border-t{
+    &::before{
+        .setTopLine();
+    }
+}
+// 右边框
+.border-r{
+    &:after{
+        .setBottomLine();
+    }
+}
+
+//下边框
+.border-b{
+    &:after{
+        .setBottomLine();
+    }
+}
+// 左边框
+.border-l{
+    &:after{
+        .setLeftLine();
     }
 }
 
