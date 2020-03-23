@@ -21,6 +21,9 @@
   "homepage": "https://github.com/passionn/1pxless#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-less": "^4.0.1"
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "postcss": "^7.0.27",
+    "postcss-write-svg": "github:jonathantneal/postcss-write-svg"
   }
 }
